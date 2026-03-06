@@ -11,7 +11,6 @@ The model classifies pest images and provides predictions through an **interacti
 
 This project demonstrates how **deep learning can assist farmers and agricultural experts** in quickly identifying pests and taking appropriate action to protect crops.
 
----
 
 # 🎯 Project Overview
 
@@ -26,7 +25,6 @@ This project builds an **automated pest recognition system** that:
 
 The system can be used as a **decision-support tool for smart agriculture**.
 
----
 
 # ✨ Features
 
@@ -42,7 +40,6 @@ The system can be used as a **decision-support tool for smart agriculture**.
 * Automatic **image resizing and normalization**
 * **Train-validation split**
 
----
 
 # 🗂 Dataset
 
@@ -58,7 +55,6 @@ The model is trained on an **Agricultural Pest Image Dataset** containing labele
 
 ### Dataset Structure
 
-```
 dataset/
 │
 ├── aphids/
