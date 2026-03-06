@@ -6,7 +6,7 @@
 ![Gradio](https://img.shields.io/badge/UI-Gradio-red)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
-An **AI-powered agricultural pest recognition model** built using **Convolutional Neural Networks (CNN)** and **Transfer Learning**.
+An **AI-powered agricultural pest recognition system** built using **Convolutional Neural Networks (CNN)** and **Transfer Learning**.
 The model classifies pest images and provides predictions through an **interactive web interface built with Gradio**.
 
 This project demonstrates how **deep learning can assist farmers and agricultural experts** in quickly identifying pests and taking appropriate action to protect crops.
@@ -41,6 +41,30 @@ The system can be used as a **decision-support tool for smart agriculture**.
 * **Train-validation split**
 
 
+# 🧱 System Architecture
+
+```
+User Image
+     │
+     ▼
+Image Preprocessing
+(Resize + Normalize)
+     │
+     ▼
+MobileNetV2 CNN Model
+     │
+     ▼
+Prediction Layer
+     │
+     ▼
+Top 3 Pest Predictions
+     │
+     ▼
+Gradio Web Interface
+```
+
+---
+
 # 🗂 Dataset
 
 The model is trained on an **Agricultural Pest Image Dataset** containing labeled images of different pest categories.
@@ -55,6 +79,7 @@ The model is trained on an **Agricultural Pest Image Dataset** containing labele
 
 ### Dataset Structure
 
+```
 dataset/
 │
 ├── aphids/
@@ -74,7 +99,6 @@ dataset/
 
 Each folder represents a **pest class label**.
 
----
 
 # 🧠 Model Architecture
 
@@ -108,7 +132,6 @@ Softmax Output (12 Classes)
 * High accuracy
 * Suitable for deployment on low-resource devices
 
----
 
 # 📊 Training Configuration
 
@@ -121,7 +144,6 @@ Softmax Output (12 Classes)
 | Loss Function | Sparse Categorical Crossentropy |
 | Framework     | TensorFlow / Keras              |
 
----
 
 # 🔎 Prediction Process
 
@@ -141,7 +163,6 @@ Aphids — 0.09
 Beetle — 0.04
 ```
 
----
 
 ## Installation
 
@@ -158,7 +179,6 @@ Install dependencies:
 pip install tensorflow numpy gradio
 ```
 
----
 
 ## Run the Project
 
@@ -174,7 +194,6 @@ Run all cells to:
 2. Train the CNN model
 3. Launch the Gradio interface
 
----
 
 # 🌐 Web Interface (Gradio)
 
@@ -188,7 +207,6 @@ Running on: https://2f3af1ca0ad2b1b4b2.gradio.live
 
 Open the link and test the model by uploading an image.
 
----
 
 # 📈 Future Improvements
 
@@ -202,7 +220,6 @@ Potential improvements for this project include:
 * Adding **pest treatment recommendations**
 * Integrating with **smart agriculture platforms**
 
----
 
 # 🌍 Real World Applications
 
@@ -215,7 +232,6 @@ This system can help:
 
 AI-based pest detection can significantly **improve food security and sustainable farming**.
 
----
 
 # 🤝 Contributing
 
@@ -244,26 +260,18 @@ git push origin feature/new-feature
 
 5. Open a Pull Request
 
----
-
 # 📜 License
 
 This project is licensed under the **MIT License**.
-
----
 
 # 👨‍💻 Author
 
 **Onyango George**
 
-AI / ML / DL / Data Science  Enthusiast
+AI / Machine Learning Enthusiast
 Interested in building intelligent systems for **agriculture, AI systems**.
 
 GitHub: [https://github.com/ad-george](https://github.com/ad-george)
 
----
 
 ⭐ **If you find this project useful, please give it a star!**
-
----
-
