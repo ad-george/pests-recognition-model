@@ -202,7 +202,7 @@ The project includes a **Gradio UI** where users can upload pest images and rece
 After running the notebook, a link will appear:
 
 ```
-Running on: https://2f3af1ca0ad2b1b4b2.gradio.live
+Running on: https://xxxxx.gradio.live
 ```
 
 Open the link and test the model by uploading an image.
