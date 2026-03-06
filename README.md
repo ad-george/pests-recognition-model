@@ -1,8 +1,3 @@
-
-You can **copy-paste this directly into your `README.md`** and GitHub will render it nicely.
-
----
-
 # 🌿 Agricultural Pest Detection using Deep Learning
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
@@ -11,7 +6,7 @@ You can **copy-paste this directly into your `README.md`** and GitHub will rende
 ![Gradio](https://img.shields.io/badge/UI-Gradio-red)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
-An **AI-powered agricultural pest recognition system** built using **Convolutional Neural Networks (CNN)** and **Transfer Learning**.
+An **AI-powered agricultural pest recognition model** built using **Convolutional Neural Networks (CNN)** and **Transfer Learning**.
 The model classifies pest images and provides predictions through an **interactive web interface built with Gradio**.
 
 This project demonstrates how **deep learning can assist farmers and agricultural experts** in quickly identifying pests and taking appropriate action to protect crops.
@@ -46,41 +41,6 @@ The system can be used as a **decision-support tool for smart agriculture**.
 * Dataset loading using TensorFlow pipelines
 * Automatic **image resizing and normalization**
 * **Train-validation split**
-
-### 🌐 Interactive Web Interface
-
-* Upload pest images
-* Receive **top 3 predictions**
-* Displays **confidence probabilities**
-
-### ⚡ Efficient Training
-
-* GPU-supported training
-* Pretrained model reduces training time
-
----
-
-# 🧱 System Architecture
-
-```
-User Image
-     │
-     ▼
-Image Preprocessing
-(Resize + Normalize)
-     │
-     ▼
-MobileNetV2 CNN Model
-     │
-     ▼
-Prediction Layer
-     │
-     ▼
-Top 3 Pest Predictions
-     │
-     ▼
-Gradio Web Interface
-```
 
 ---
 
@@ -187,22 +147,12 @@ Beetle — 0.04
 
 ---
 
-# 🚀 Quick Start
-
-## Prerequisites
-
-* Python **3.8+**
-* pip package manager
-* Jupyter Notebook / Google Colab / Kaggle
-
----
-
 ## Installation
 
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/agricultural-pest-detection.git
+git clone https://github.com/ad-george/agricultural-pest-detection.git
 cd agricultural-pest-detection
 ```
 
@@ -237,26 +187,10 @@ The project includes a **Gradio UI** where users can upload pest images and rece
 After running the notebook, a link will appear:
 
 ```
-Running on: https://xxxxx.gradio.live
+Running on: https://2f3af1ca0ad2b1b4b2.gradio.live
 ```
 
 Open the link and test the model by uploading an image.
-
----
-
-# 📁 Project Structure
-
-```
-agricultural-pest-detection/
-│
-├── pest_detection.ipynb        # Model training notebook
-├── dataset/                    # Pest image dataset
-├── screenshots/                # Demo images
-│
-├── README.md                   # Project documentation
-├── requirements.txt            # Python dependencies
-└── LICENSE
-```
 
 ---
 
@@ -324,12 +258,12 @@ This project is licensed under the **MIT License**.
 
 # 👨‍💻 Author
 
-**George Adomi**
+**Onyango George**
 
-AI / Machine Learning Enthusiast
-Interested in building intelligent systems for **agriculture, AI systems, and real-world problem solving**.
+AI / ML / DL / Data Science  Enthusiast
+Interested in building intelligent systems for **agriculture, AI systems**.
 
-GitHub: [https://github.com/yourusername](https://github.com/yourusername)
+GitHub: [https://github.com/ad-george](https://github.com/ad-george)
 
 ---
 
@@ -337,10 +271,3 @@ GitHub: [https://github.com/yourusername](https://github.com/yourusername)
 
 ---
 
-If you want, I can also help you add **3 things that make ML GitHub projects look very professional**:
-
-* 📊 **Model accuracy & training graphs**
-* 🖼 **prediction screenshots**
-* 🧠 **CNN architecture diagram**
-
-These make recruiters **immediately take your project seriously.**
